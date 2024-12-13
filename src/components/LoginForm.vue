@@ -86,7 +86,7 @@ export default {
   mounted() {
       //建立google第三方登入的連結
       window.google.accounts.id.initialize({
-        client_id: "167214762151-kqnd5rshmlgmhacbhra3pdpp80bknvs5.apps.googleusercontent.com",
+        client_id: "*",
         callback: this.handleCredentialResponse
       });
       //建立登入按鈕
